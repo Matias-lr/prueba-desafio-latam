@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+:root{
+    --cgblue: #007090;
+    --white: #fff;
+    --platinum: #EAEBED;
+    --pewterBlue: #A3BAC3;
+    --raisinBlack: #1E1E24;
+    --darkLoverHorses: #503D3F;/*no entiendo este nombre pero genere una paleta de colores con una app xD*/
+    --cardColor: #542344;
+    --info: #17a2b8;
+    --black: #212529;
+    --gray: #707070;
+}
+
+body * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: var(--cgblue);
+}
+
+h1{
+    color: var(--platinum);
+    font-size: 3.75em;
+    font-weight: 700;
+}
+
+h2 {
+    color: var(--darkLoverHorses);
+    font-size: 2em;
+    font-weight: 400;
+}
+
+h3{
+    color: var(--white);
+}
+
+.menu {
+    padding: 0.8em 7.5em;
+}
+
+.menu img {
+    height: 3.3125em;
+}
+
+.menu a {
+    color: var(--white);
+    text-decoration: none;
+    margin-left: 0.9em
+}
+
+.menu button {
+    color: var(--white);
+}
+
+
+header {
+    padding: 0;
+}
+
+.bg-container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 30em;
+    background-image: url('../img/bg-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-container .write i{
+  color: var(--platinum);
+}
+
+.experience{
+    background-color: var(--cgblue);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    padding: 2em;
+}
+
+.experience h2{
+    color: var(--platinum);
+}
+
+.card{
+    background-color: var(--cardColor);
+    color: var(--pewterBlue);
+    border-radius: 1em;
+}
+
+.skillset .skillset-part{
+    background-color: var(--cgblue);
+    border-radius: 0.2em;
+}
+
+.progress-bar{
+    color: var(--darkLoverHorses);
+}
+
+.carousel-img{
+    height: 32em;
+}
+
+.carousel-caption{
+    background-color: var(--raisinBlack);
+    border-radius: 1em;
+}
+
+.hobbys{
+    background-color: var(--cgblue);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    padding: 2em;
+}
+
+.hobbys h2{
+    color: var(--platinum);
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #542344;
+    color: white;
+    cursor: pointer; 
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#myBtn:hover {
+    background-color: #555; /* Esto oscurece el boton cuando se pone el click sobre el*/
+}
+
+.contact a {
+    text-decoration: none;
+    margin-left: 0.5em;
+    color: black;
+}
+
